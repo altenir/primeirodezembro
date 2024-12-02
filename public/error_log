@@ -1,0 +1,13 @@
+[02-Dec-2024 03:25:59 UTC] PHP Warning:  include(/home/gwnsi6z4/public_html/primeirodezembro/vendor/composer/../sebastian/version/src/Version.php): Failed to open stream: No such file or directory in /home/gwnsi6z4/public_html/primeirodezembro/vendor/composer/ClassLoader.php on line 576
+[02-Dec-2024 03:25:59 UTC] PHP Warning:  include(/home/gwnsi6z4/public_html/primeirodezembro/vendor/composer/../sebastian/version/src/Version.php): Failed to open stream: No such file or directory in /home/gwnsi6z4/public_html/primeirodezembro/vendor/composer/ClassLoader.php on line 576
+[02-Dec-2024 03:25:59 UTC] PHP Warning:  include(): Failed opening '/home/gwnsi6z4/public_html/primeirodezembro/vendor/composer/../sebastian/version/src/Version.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/gwnsi6z4/public_html/primeirodezembro/vendor/composer/ClassLoader.php on line 576
+[02-Dec-2024 03:25:59 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Version" not found in /home/gwnsi6z4/public_html/primeirodezembro/vendor/phpunit/phpunit/src/Runner/Version.php:37
+Stack trace:
+#0 /home/gwnsi6z4/public_html/primeirodezembro/vendor/phpunit/phpunit/src/Runner/Version.php(48): PHPUnit\Runner\Version::id()
+#1 /home/gwnsi6z4/public_html/primeirodezembro/vendor/nunomaduro/collision/src/Adapters/Phpunit/Autoload.php(10): PHPUnit\Runner\Version::series()
+#2 /home/gwnsi6z4/public_html/primeirodezembro/vendor/composer/autoload_real.php(41): require('/home/gwnsi6z4/...')
+#3 /home/gwnsi6z4/public_html/primeirodezembro/vendor/composer/autoload_real.php(45): {closure}('a1cfe24d14977df...', '/home/gwnsi6z4/...')
+#4 /home/gwnsi6z4/public_html/primeirodezembro/vendor/autoload.php(25): ComposerAutoloaderInit626b9e7ddd47fb7eff9aaa53cce0c9ad::getLoader()
+#5 /home/gwnsi6z4/public_html/primeirodezembro/public/index.php(13): require('/home/gwnsi6z4/...')
+#6 {main}
+  thrown in /home/gwnsi6z4/public_html/primeirodezembro/vendor/phpunit/phpunit/src/Runner/Version.php on line 37
